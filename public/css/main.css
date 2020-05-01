@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url("/public/Images/background.png");
+    background-size: 150vh;
+    background-repeat: no-repeat;    
+}
+
+#logoFreela{
+    position: relative;
+    margin-top: 20px;
+    left: 3rem;
+    width: 70%;
+}
+
+
+form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    background-color: rgba(255, 253, 253, 0.068);
+    border: none;
+    border-radius: 20px 20px 0 0;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    height: 5vh;
+    width: 65vw;
+    color: rgb(168, 21, 212);
+    font-weight: 400;
+    text-align: center;
+}
+
+form button{
+    border: none;
+    width: 45vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: 600;
+    background: purple;
+    color: white;
+    box-shadow: 0 2px 6px 0px rgba(255, 255, 255, 0.185);
+}
+
+.left{
+    background-color: white;
+}
