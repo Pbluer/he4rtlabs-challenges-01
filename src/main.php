@@ -4,3 +4,7 @@ diasEfetivos = dias
 horasDiarias = horas
 diasFerias = ferias
 valorHora = total
+
+<?php
+
+?>
