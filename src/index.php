@@ -6,5 +6,5 @@ diasFerias = ferias
 valorHora = total
 
 <?php
-
+echo "olá";
 ?>

@@ -9,12 +9,12 @@
 
 @font-face{
     font-family: 'Poppins-Regular';
-    src: url('/public/font/Poppins-Regular.ttf');
+    src: url("/public/font/Poppins-Regular.ttf");
 }
 
 @font-face{
     font-family: 'Poppins-SemiBold';
-    src: url('/public/font/Poppins-SemiBold.ttf');
+    src: url("/public/font/Poppins-SemiBold.ttf");
 }
 
 :root{
