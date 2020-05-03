@@ -23,20 +23,24 @@
 }
 
 body{
-    height: 100vh;
     background-image: url("/public/Images/background.png");
-    background-size: 100%;
+    background-size: 140vh;
     background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100vw;
+}
+
+.right{
+    height: 100px;
 }
 
 #logo{
     display: flex;
     justify-content: center;
-    margin-top: var(--margin-top);
+    margin-top: calc(var(--margin-top) - 3vw);
 }
 
 #logoFreela{
-    position: relative;
     width: 60%;
 }
 
@@ -93,10 +97,15 @@ form #ValorHora{
     width: 7.5rem;
 }
 
+.left h1,p{
+    display: none;
+}
+
 @media only screen and (min-width:600px){
     
     body{
         overflow: hidden;
+        background-size: 150vh;
     }
 
     #logoFreela{
@@ -113,10 +122,8 @@ form #ValorHora{
 
 }
 
-/* PRECISA SER FEITO*/
-@media only screen and (min-width:1020px){}
 
-@media only screen and (min-width:1280px){
+@media only screen and (min-width:1020px){
 
     body{
         display: grid;
@@ -144,6 +151,7 @@ form #ValorHora{
     .left{
         position: relative;
         box-shadow: 5px 0px 24px 2px #000000;
+        height: 100vh;
     }
     
     .left img{
@@ -153,6 +161,7 @@ form #ValorHora{
     }
 
     .left h1{
+        display: inline;
         margin-top: var(--margin-top);
         color:var(--cor-roxin-);
         font-family: Poppins-Regular;
@@ -160,10 +169,11 @@ form #ValorHora{
         text-align: center;
     }
     .left p{
+        display: inline;
         position: fixed;
         bottom: 10px;
         color: black;
-        font-size: 0.85rem;
+        font-size: 0.65rem;
     }
     
     .left p a{
@@ -172,4 +182,10 @@ form #ValorHora{
         font-family: Poppins-SemiBold;
     }
 
+}
+
+@media only screen and (min-width:1280px){
+    .left p {
+        font-size: 0.75rem;
+    }
 }
