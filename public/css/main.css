@@ -22,8 +22,13 @@
     --cor-roxin-: rgb(168, 21, 212);
 }
 
+/*PAGAR */
+#teste{
+    color: black;
+}
+
 body{
-    background-image: url("/public/Images/background.png");
+    background-image: url("Images/background.png");
     background-size: 140vh;
     background-repeat: no-repeat;
     background-position: 0 0;
