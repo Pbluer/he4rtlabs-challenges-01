@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+@keyframes hrEfeito{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85vw;
+    }
+}
+
+body{
+    width: 100vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right img{
+    width: 60%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+
+header #he4rt{
+    margin: 5vw 0;
+    width: 35%;
+}
+
+header hr{
+    width: 85vw;
+    animation: hrEfeito 3s forwards;
+}
+
+.menu{
+    margin: 5vw 0;
+}
+
+.menu a{
+    margin: 0 3vw;
+    position: relative;
+    bottom: 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f44336;
+}
+
+.link:hover{
+    color: black;
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left form input{
+    border: none;
+    background-color: #f44336;
+    border-radius: 15px;
+    margin: 5px 0;
+    height: 4vh;
+}
+
+.left form button{
+    margin: 3vh 0 5vh 0;    
+    border: none;
+    color: white;
+    background: #263238;
+    border-radius: 10px;
+    height: 4vh;
+    width: 35vw;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer hr{
+    border-color: #f44336;
+    margin-bottom: 2vh;
+}
+
+footer p{
+    margin: 0px 5vw 3vw 5vw;
+}
+
+footer p a{
+    text-decoration:none;
+    color: #f44336;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px){
+
+    *{
+        font-size: 18px;
+    }
+    .container{
+        margin: 3vh 0 8vh 0;
+    }
+
+    .left form button{
+        margin: 3vh 0 0 0;
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    *{
+        font-size: 20px;
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        padding: 25px;
+    }
+
+    header #he4rt{
+        margin: 2vh 0 3vh 0;
+    }
+
+    .menu{
+        margin: 4vw 0 0 0;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .container{
+        padding: 0 10vw 0 10vw;
+        margin: 2vh 0 5vh 0;
+    }
+
+    .right img{
+        width: 63%;
+    }
+
+    .left form{
+        padding: 10%;
+    }
+
+    .left form button{
+        width: 10vw;
+    }
+
+}
