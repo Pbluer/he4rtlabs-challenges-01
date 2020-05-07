@@ -2,7 +2,7 @@
 
 Uma calculadora que irá te mostrar o valor da sua hora perante o freelance cotado.
 
-![interface image](https://raw.githubusercontent.com/xmatheus/he4rtlabs-challenges-01/master/src/img/web.jpg)
+![interface image](https://github.com/Pbluer/he4rtlabs-challenges-01/blob/master/src/img/web.jpg)
 
 ## Qual é o valor que o desafio entrega?
 
