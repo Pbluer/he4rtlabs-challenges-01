@@ -82,16 +82,23 @@ header hr{
     border-radius: 15px;
     margin: 5px 0;
     height: 4vh;
+    text-align: center;
+    font-weight: bold;
 }
 
 .left form button{
-    margin: 3vh 0 5vh 0;    
+    margin: 3vh 0 2vh 0;    
     border: none;
     color: white;
     background: #263238;
     border-radius: 10px;
-    height: 4vh;
+    height: 5vh;
     width: 35vw;
+}
+
+.left form h1{
+    font-size: 2rem;
+    margin-bottom: 2vh;
 }
 
 footer{
@@ -120,13 +127,17 @@ footer p a{
         font-size: 18px;
     }
     .container{
-        margin: 3vh 0 8vh 0;
+        margin: 3vh 0 3vh 0;
     }
 
     .left form button{
         margin: 3vh 0 0 0;
     }
-}
+
+    .left form h1{
+        margin-top: 2vh;
+    }
+}   
 
 @media only screen and (min-width:1024px){
 
@@ -164,7 +175,7 @@ footer p a{
 
     .container{
         padding: 0 10vw 0 10vw;
-        margin: 2vh 0 5vh 0;
+        margin:0;
     }
 
     .right img{
@@ -179,4 +190,7 @@ footer p a{
         width: 10vw;
     }
 
+    .left form h1{
+        margin-top: 2vh;
+    }
 }

@@ -16,14 +16,13 @@ require_once("./script/index.php")
 <body>
 
     <header>
-
         <img src=".\img\logo-he-1.svg" id="he4rt" alt="He4rt">
         <hr>        
         <nav class="menu" id="open-Menu">
-            <a href="#" class="link">GitHub</a>
-            <a href="#" class="link">Twitter</a>
-            <a href="#" class="link">Discord</a>
-            <a href="#" class="link">Desafio</a>
+            <a href="https://github.com/Pbluer" class="link">GitHub</a>
+            <a href="https://twitter.com/RamonVLima" class="link">Twitter</a>
+            <a href="https://discord.gg/V2xT8jr" class="link">Discord</a>
+            <a href="https://github.com/he4rtlabs/he4rtlabs-challenges-01" class="link">Desafio</a>
         </nav>
        
     </header>
@@ -45,7 +44,7 @@ require_once("./script/index.php")
                 <label for="tempo">Dias de Férias</label>
                 <input type="number" name="ferias">
                 <button>Calcular</button>
-                <h2><?= $valorTotal ?></h2>
+                <h1><?= $valorTotal ? "R$ $valorTotal" : '' ?></h1>
             </form>
         </div>    
     </div>
